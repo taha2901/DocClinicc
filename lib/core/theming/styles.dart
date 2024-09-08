@@ -24,6 +24,26 @@ class TextStyles {
     fontWeight: FontWeight.w600,
     fontSize: 16.sp,
   );
+  static TextStyle font16BlackPoppins = TextStyle(
+    color: Colors.black,
+    fontWeight: FontWeight.w600,
+    fontSize: 16.sp,
+  );
+  static TextStyle font24WhitePoppins = TextStyle(
+    color: ColorsManager.mainBlue,
+    fontWeight: FontWeight.w600,
+    fontSize: 24.sp,
+  );
+  static TextStyle font16WhitePoppins = TextStyle(
+    color: Colors.white,
+    fontWeight: FontWeight.w400,
+    fontSize: 16.sp,
+  );
+  static TextStyle font16WhitePeralta = TextStyle(
+    color: Colors.white,
+    fontWeight: FontWeight.w400,
+    fontSize: 16.sp,
+  );
   
 
 }
