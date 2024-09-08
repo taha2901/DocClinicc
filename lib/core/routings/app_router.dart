@@ -1,6 +1,8 @@
 import 'package:doc_clinic/core/routings/routers.dart';
+import 'package:doc_clinic/features/home/ui/home.dart';
 import 'package:doc_clinic/features/login/ui/login_screen.dart';
 import 'package:doc_clinic/features/onboarding/ui/on_boarding_screen.dart';
+import 'package:doc_clinic/features/sinup/ui/sign_up.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
@@ -15,10 +17,14 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => const LoginScreen(),
         );
-      // case Routers.home:
-      //   return MaterialPageRoute(
-      //     builder: (_) => const LoginScreen(),
-      //   );
+      case Routers.signUp:
+        return MaterialPageRoute(
+          builder: (_) => const SignUpScreen(),
+        );
+      case Routers.home:
+        return MaterialPageRoute(
+          builder: (_) => const HomeScreen(),
+        );
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(
